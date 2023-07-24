@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid rgb(78, 101, 101);
+    padding: 20px 10px;
+    background-color: rgba(240, 255, 255, 0.08);
+}
+.btn{
+    display: flex;
+    align-items: center;
+    max-width: 500px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+input{
+    outline: none;
+    border: 1px solid #aaa;
+    padding: 10px;
+    border-radius: 30px;
+    color: rgb(238, 17, 17);
+    font-weight: bolder;
+}
+button{
+    outline: none;
+    border: 1px solid #aaa;
+    padding: 10px;
+    border-radius: 30px;
+    color: rgb(47, 26, 26);
+    background-color: rgba(255, 255, 255, 0.08);
+    font-weight: bolder;
+    cursor: pointer;
+}
+button:hover{
+    color: white;
+    background-color: #a11e1e;
+}
+#res{
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 20px;
+}
+#res p{
+    padding: 10px;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 0, 0.1);
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+::-webkit-scrollbar{
+    background-color: whitesmoke;
+}
