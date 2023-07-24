@@ -52,7 +52,7 @@ function div() {
         showLoaderOnConfirm: true,
     }).then((result) => {
         if (result.isConfirmed) {
-            res.innerHTML = `<p>${input.value / (+ result.value)}</p>`
+            res.innerHTML = `<p>${(input.value / (+ result.value)).toFixed(4)}</p>`
         }
     })
 }
@@ -70,7 +70,7 @@ function fac() {
 function sqr(){
     res.style.height = "auto"
     res.innerHTML = ''
-    res.innerHTML = `<p></p>${input.value*input.value}`
+    res.innerHTML = `<p>${input.value*input.value}</p>`
 }
 function sqrR(){
     res.style.height = "auto"
